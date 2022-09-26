@@ -1,0 +1,32 @@
+$background-color: #121212;
+$component: #1d1d1d;
+$text: #e8e8e8;
+$primary: #01fff4;
+$secondary: #ff1178;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $background-color;
+}
+
+a {
+    text-decoration: none;
+    color: $text;
+}
+
+.point{
+    cursor: pointer;
+}
+
+.filled {
+    color: $secondary;
+}
+
+.hovered {
+    fill: $primary;
+}
